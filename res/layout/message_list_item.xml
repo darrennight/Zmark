@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_activity_enroll_edite"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp" >
+        <RelativeLayout 
+            android:id="@+id/rel_lay_1"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            
+             <TextView
+                 android:id="@+id/message_item_title"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="5dp"
+                 android:maxLines="1"
+                 android:text="百分妈妈育儿讲"
+                 android:textColor="#e64709"
+                 android:textSize="20sp" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_below="@+id/rel_lay_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/rel_lay_21"
+            android:layout_marginRight="10dp"
+            >
+            <RelativeLayout 
+                android:id="@+id/rel_lay_2"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                 <TextView
+                     android:id="@+id/message_item_info"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginBottom="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_toLeftOf="@+id/message_point"
+                     android:maxLines="2"
+                     android:minLines="1"
+                     android:text="s"
+                     android:textColor="#333333"
+                     android:textSize="16sp" />
+                 
+                   <ImageView 
+                android:id="@+id/message_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/more"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+          
+        </RelativeLayout>
+        
+        <TextView
+            android:layout_below="@+id/rel_lay_21"
+                    android:id="@+id/message_item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:text="2012-12-18"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+        
+       
+    </RelativeLayout>
+
+</RelativeLayout>

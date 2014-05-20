@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/oblivions/!svn/ver/43/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http
+END
+HttpLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/oblivions/!svn/ver/42/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/HttpLoader.java
+END
+HttpMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/oblivions/!svn/ver/15/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/HttpMethod.java
+END
+HttpResponseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/oblivions/!svn/ver/36/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/HttpResponseBean.java
+END
+ErrorCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/oblivions/!svn/ver/15/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/ErrorCode.java
+END
+ApiException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/oblivions/!svn/ver/33/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/ApiException.java
+END
+IHttpLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/oblivions/!svn/ver/36/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/IHttpLoader.java
+END
+HttpUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/oblivions/!svn/ver/15/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/HttpUtility.java
+END
+AbstractAsyncNetRequestTaskLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/oblivions/!svn/ver/15/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/AbstractAsyncNetRequestTaskLoader.java
+END
+JavaHttpUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/oblivions/!svn/ver/15/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/JavaHttpUtility.java
+END
+AsyncTaskLoaderResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/oblivions/!svn/ver/15/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/AsyncTaskLoaderResult.java
+END
+FHttpLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/oblivions/!svn/ver/43/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/support/http/FHttpLoader.java
+END

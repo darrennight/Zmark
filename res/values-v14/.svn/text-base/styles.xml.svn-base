@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:buttonStyle">@null</item>
+        <item name="android:buttonStyleSmall">@null</item>
+        <item name="android:buttonStyleInset">@null</item>
+        <item name="android:buttonStyleToggle">@null</item>
+        <item name="android:selectableItemBackground">@null</item>
+        <item name="android:borderlessButtonStyle">@null</item>
+        <item name="android:homeAsUpIndicator">@null</item>
+           <item name="android:background">@null</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

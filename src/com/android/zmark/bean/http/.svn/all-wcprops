@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http
+END
+TaskManger.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/TaskManger.java
+END
+NetWork.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/NetWork.java
+END
+RequestRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/RequestRunnable.java
+END
+DownloadListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/DownloadListener.java
+END
+DownloadRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/DownloadRef.java
+END
+TaskThreadHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/TaskThreadHandler.java
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/Parameter.java
+END
+TaskManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/TaskManager.java
+END
+TaskHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/TaskHandler.java
+END
+DownloadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/DownloadManager.java
+END
+PhoneManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/oblivions/!svn/ver/13/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/bean/http/PhoneManage.java
+END

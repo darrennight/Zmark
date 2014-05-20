@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/fl_user_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_user1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main_baby" />
+
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/touxiang_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/bt_like1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_user_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_specialedition_like"
+                android:drawablePadding="3dp"
+                android:text="385票"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bt_family_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_like1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/fl_user_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_user2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main_baby" />
+
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/touxiang_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/bt_like2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_user_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_specialedition_like"
+                android:drawablePadding="3dp"
+                android:text="385票"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bt_family_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_like2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/fl_user_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_user3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main_baby" />
+
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/touxiang_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/bt_like3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_user_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_specialedition_like"
+                android:drawablePadding="3dp"
+                android:text="385票"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bt_family_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_like3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/fl_user_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_user4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main_baby" />
+
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/touxiang_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/bt_like4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_user_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_specialedition_like"
+                android:drawablePadding="3dp"
+                android:text="385票"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bt_family_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_like4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/fl_user_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_user5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main_baby" />
+
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/touxiang_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/bt_like5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_user_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_specialedition_like"
+                android:drawablePadding="3dp"
+                android:text="385票"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bt_family_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_like5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/fl_user_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_user6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main_baby" />
+
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/touxiang_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/bt_like6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_user_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_specialedition_like"
+                android:drawablePadding="3dp"
+                android:text="385票"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bt_family_name6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_like6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="xxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

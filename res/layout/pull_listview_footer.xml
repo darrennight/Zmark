@@ -1,0 +1,41 @@
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+	<RelativeLayout 
+	android:id="@+id/rl_loadmore"
+   	android:layout_width="fill_parent"
+   	android:layout_height="60.0dip"
+   	android:focusable="true"
+   	android:clickable="true">
+   		<TextView 
+   		android:id="@+id/tv_load_msg"
+   		android:layout_width="180.0dip"
+   		android:layout_height="50.0dip"
+   		android:gravity="center"
+   		android:layout_centerHorizontal="true"
+   		android:textColor="@android:color/black"
+   		android:textSize="18.0sp"/>
+   	    <ImageView 
+   	    android:id="@+id/iv_load_arrow"
+   	    android:layout_width="50.0dip"
+   		android:layout_height="50.0dip"
+   		android:visibility="gone"
+   		android:layout_toLeftOf="@id/tv_load_msg"
+   		android:layout_alignBottom="@id/tv_load_msg"
+   		android:contentDescription="@null"
+   		android:src="@drawable/img_loadmore_arrow"
+   		android:scaleType="centerInside"/>
+   	    <ProgressBar  
+   	    android:id="@+id/pb_loadmore"
+	    android:layout_width="20.0dip"  
+	    android:layout_height="20.0dip" 
+	    android:visibility="gone"
+	    android:layout_marginRight="15.0dip"
+	    android:layout_centerVertical="true" 
+	    android:layout_toLeftOf="@id/tv_load_msg"
+	    style="?android:attr/progressBarStyleSmall"  
+	    android:indeterminateDrawable="@drawable/small_progress"/>
+   	</RelativeLayout>
+</LinearLayout>

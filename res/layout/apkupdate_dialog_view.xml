@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background" >
+
+    <RelativeLayout
+        android:id="@+id/absolute_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            style="@style/list_detail_title"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/tx_title"
+            style="@style/list_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/absolute_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/absolute_title"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/childview_margin" >
+
+        <TextView
+            android:id="@+id/tx_absolute_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/transparent"
+            android:minLines="5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_content_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/absolute_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/absolute_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/item_margin"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/bt_absolute_positive"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_buttom_modify"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="确定"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_title_size"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_absolute_negative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/item_margin"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_buttom_modify"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_title_size"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

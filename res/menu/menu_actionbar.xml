@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/setting" 
+        android:icon="@drawable/discuss_list_default_img" 
+        android:title=""
+        android:showAsAction="always"
+         android:visible="true"></item>
+    
+
+</menu>

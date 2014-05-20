@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/oblivions/!svn/ver/63/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment
+END
+AbstractListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/oblivions/!svn/ver/36/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/AbstractListFragment.java
+END
+SetingFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/oblivions/!svn/ver/56/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/SetingFragment.java
+END
+CollectionFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/oblivions/!svn/ver/56/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/CollectionFragment.java
+END
+HomePageFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/oblivions/!svn/ver/61/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/HomePageFragment.java
+END
+LoginFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/oblivions/!svn/ver/15/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/LoginFragment.java
+END
+MenuLeftFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/oblivions/!svn/ver/63/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/MenuLeftFragment.java
+END
+HistoryListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/oblivions/!svn/ver/56/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/HistoryListFragment.java
+END
+AbstractFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/oblivions/!svn/ver/36/Zmark/ZiMaKaiMenMainActivity/src/com/android/zmark/ui/fragment/AbstractFragment.java
+END

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#349088" >
+
+    <LinearLayout
+        android:id="@+id/ly_topmenue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/main_viewpager_lin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Gallery
+                android:id="@+id/main_viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:focusable="true"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/ll_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_right_title"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/food"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/fujinmeishi"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="餐饮"
+                android:textColor="@color/wheat" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/ic_choosebar_line" />
+
+            <Button
+                android:id="@+id/enterainment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/fujinyule"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="娱乐"
+                android:textColor="@color/wheat" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/ic_choosebar_line" />
+
+            <Button
+                android:id="@+id/hotel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/fujinjiudian"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="酒店"
+                android:textColor="@color/wheat" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

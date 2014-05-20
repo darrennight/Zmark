@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg">
+    
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/topbg"
+        >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="大律师"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_left"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/top_right"/>
+        
+    </RelativeLayout>
+    
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/address_rel"
+                android:textColor="@color/topbg"
+                android:text="全部"
+                android:textSize="20sp"
+                android:background="@color/topitem"/>
+            
+            <View android:layout_width="2dp"
+                android:layout_height="40dp"
+                android:background="@color/gray"/>
+             <Button android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/class_rel"
+                android:textColor="@color/topbg"
+                android:text="全部"
+                android:textSize="20sp"
+                android:background="@color/topitem"/>
+            
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"/>
+    </LinearLayout>
+    
+    <ListView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"></ListView>
+
+</LinearLayout>
